@@ -1,0 +1,91 @@
+.cartContainer {
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartCardsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.cartCard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.itemContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.cartTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cartPrice {
+    color: gray;
+}
+
+.buttonsContainer {
+    display: flex;
+}
+
+.cartButton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkoutContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+    height: 200px;
+}
+
+.checkoutTitle {
+    color: gray;
+    padding: 5px;
+}
+
+.checkoutValue {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.checkoutButton {
+    outline: none;
+    border: none;
+    margin: 2px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.checkoutButtonPrimary {
+    background-color: black;
+    color: white;
+}
+
+.checkoutButtonSecondary {
+    background-color: #f26a44;
+    color: white;
+}
